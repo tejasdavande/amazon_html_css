@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+}
+.toptitle{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    column-gap: 2em;
+    background-color:rgb(7, 7, 15);
+    color: white;
+    padding: 7px;
+}
+.webname{
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 25px;
+    font-family: cursive;
+    padding:6px;
+}
+.webname:hover{
+    border: 1px solid white;
+    padding-left: 30px;
+    /* transition:  1.9s ease-in-out; */
+}
+.address{
+    margin-top: 2px;
+    margin-left: -20px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+.address>b{
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+}
+.address>span{
+    font-size: 13px;
+}
+.address:hover{
+    border: 1px solid white;
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.searchbar{
+    margin-left: -140px;
+    margin-top: 6px;
+}
+.searchbar input:hover{
+    border: 2px solid orangered;
+    padding-left: -100px;
+
+}
+.searchbar select:hover{
+    border: 2px solid orangered;   
+}
+.account:hover{
+    border: 1px solid white;
+    padding: 5px; 
+    
+}
+.account {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .account-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 450px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .account-content {
+    right: 0;
+  }
+  
+  .account:hover .account-content {
+    display: block;
+  }
+
+.return:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.cart:hover{
+    border: 1px solid white;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.toptitle2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    background-color: rgb(15, 15, 60);
+    color: white;
+}
+.language{
+    margin-top: 5px;   
+}
+.account{
+   padding-top: 5px;
+}
+.return{
+    padding-top: 5px; 
+}
+.cart{
+    padding-top: 17px;  
+}
+.all{
+    margin: auto;
+}
+.sell{
+    margin: auto;
+}
+.Bestseller{
+    margin: auto;
+}
+.mobiles{
+    margin: auto;
+}
+.todaysdeals{
+    margin: auto;
+}
+.books{
+    margin: auto;
+}
+.customerservice{
+    margin: auto;
+}
+.electronics{
+    margin: auto;
+}
+.fashion{
+    margin: auto;
+}
+.prime{
+    margin: auto;
+}
+.newreleases{
+    margin: auto;
+}
+.homeandkitchen{
+    margin: auto;
+}
+.amazonpay{
+    margin: auto;
+}
+.img1{
+    margin: auto;
+}
+.all:hover{
+    border: 1px solid white;
+padding: 5px;}
+    
+.sell:hover {
+    border: 1px solid white;
+    padding: 5px;
+}
+.Bestseller:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.mobiles:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.todaysdeals:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.books:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.customerservice:hover:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.electronics:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.fashion:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.prime:hover{
+    border: 1px solid white;
+    padding: 5px;}
+.newreleases:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.homeandkitchen:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.amazonpay:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.img1:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+

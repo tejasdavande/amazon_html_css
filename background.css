@@ -1,0 +1,65 @@
+#background{
+    position: relative;
+    /* background-color: rgb(121, 104, 36);
+    background-image: linear-gradient(to bottom,red, orange, yellow, green, blue, indigo,violet,white); */
+    size: 100%;
+    /* width: 100%;
+    height: 700px; */
+    /* background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+}
+#background2{
+    background-color: rgb(121, 104, 36);
+    background-image: linear-gradient(to bottom,black,grey,white);
+    height: 500px;
+    width: 100%;
+    margin-top: -4px;
+}
+.layer1{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    margin-top: -200px;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    margin-left: 20px;
+
+}
+.layer1 img{
+  height: 280px;
+  width: 320px;
+  margin-top: 10px;
+}
+.book{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: top;
+}
+.txt1{
+    margin-left: 5px;
+    padding-bottom: -50px;
+}
+.txt2{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(46, 111, 90);
+}
+.txt2:hover{
+    text-decoration: underline;
+}
+.tab1{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: black;
+}
+.tab1 ul{
+    list-style-type: none;
+}
+.tab1 li:hover{
+    text-decoration: underline;
+}
